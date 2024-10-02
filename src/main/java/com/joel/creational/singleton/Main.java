@@ -1,9 +1,9 @@
-package com.joel.singletonDemo;
+package com.joel.creational.singleton;
+
 import java.io.UncheckedIOException;
 import java.net.http.HttpClient;
 import java.util.concurrent.Future;
-
-import com.joel.singletonDemo.HttpClientProvider;
+import com.joel.creational.singleton.HttpClientProvider;
 
 public class Main{
 	public static void main(String[] args){

@@ -1,4 +1,5 @@
-package com.joel.singletonDemo;
+package com.joel.creational.singleton;
+
 import java.io.UncheckedIOException;
 import java.net.Authenticator;
 import java.net.CookieHandler;

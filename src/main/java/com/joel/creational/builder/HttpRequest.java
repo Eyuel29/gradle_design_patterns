@@ -1,4 +1,4 @@
-package com.joel.builderDemo;
+package com.joel.creational.builder;
 import java.util.HashMap;
 import java.util.Map;
 

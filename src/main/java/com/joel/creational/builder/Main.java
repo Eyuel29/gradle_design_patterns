@@ -1,4 +1,5 @@
-package com.joel.builderDemo;
+package com.joel.creational.builder;
+import com.joel.creational.builder.HttpRequest;
 
 public class Main {
     public static void main(String[] args) {        
