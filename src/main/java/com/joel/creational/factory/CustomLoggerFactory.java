@@ -31,7 +31,7 @@ public class CustomLoggerFactory {
     }
 
     private class CustomFileLogger extends CustomLogger {
-        File file = new File("./custom-log.txt");
+        File file = new File("./src/main/java/com/joel/creational/factory/custom-log.txt");
         @Override
         public void log(String message) {
             try (FileOutputStream fos = new FileOutputStream(file, true)) {  // 'true' to append to the file
