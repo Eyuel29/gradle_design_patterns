@@ -29,3 +29,8 @@ task runBuilder(type : JavaExec){
     main 'com.joel.creational.builder.Main'
     classpath = sourceSets.main.runtimeClasspath
 }
+
+task runFactory(type : JavaExec){
+    main 'com.joel.creational.factory.Main'
+    classpath = sourceSets.main.runtimeClasspath
+}

@@ -1,5 +1,7 @@
 .gradle/
 build/
+custom-log.txt
+
 /*/.gradle/
 /*/build.gradle
 /*/build/
