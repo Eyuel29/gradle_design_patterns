@@ -34,3 +34,8 @@ task runFactory(type : JavaExec){
     main 'com.joel.creational.factory.Main'
     classpath = sourceSets.main.runtimeClasspath
 }
+
+task runAdapter(type : JavaExec){
+    main 'com.joel.structural.Main'
+    classpath = sourceSets.main.runtimeClasspath
+}

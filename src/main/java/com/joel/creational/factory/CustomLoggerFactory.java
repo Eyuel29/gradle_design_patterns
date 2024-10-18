@@ -35,7 +35,7 @@ public class CustomLoggerFactory {
         @Override
         public void log(String message) {
             try (FileOutputStream fos = new FileOutputStream(file, true)) {  // 'true' to append to the file
-                fos.write(message.getBytes());
+                fos.write((message + "\n").getBytes());
                 fos.flush();
             } catch (Exception e) {
                 e.printStackTrace();
@@ -48,7 +48,7 @@ public class CustomLoggerFactory {
         @Override
         public void log(String message) {
             System.out.println(
-                "[ " +Thread.currentThread().getName()+ " ]" + 
+                "[ " +Thread.currentThread().getName()+ " ] " + 
                 LocalDateTime.now().toString() +" "+
                 message
             );
